@@ -7,3 +7,4 @@ This attempts to repro https://github.com/vercel/turborepo/issues/2134
 3. `npm run build` (which proxies to `turbo run build`) to see build run successfully
 4. `ls .turbo-cookie` to make sure it doesn't get created.
 5. `npm i -D turbo@1.5`
+6. `npm run build` and then `ls .turbo-cookie` again
